@@ -1,6 +1,6 @@
 rm(list = ls())
-diab.df=read.csv("C:/Users/my/Desktop/diabetes_binary_health_indicators_BRFSS2015.csv",stringsAsFactors=FALSE)
-source('C:/Users/my/Desktop/Durumi/Week1/EDA/descriptive_analytics_utils.R')
+diab.df=read.csv("diabetes_binary_health_indicators_BRFSS2015.csv",stringsAsFactors=FALSE)
+source('descriptive_analytics_utils.R')
 head(diab.df)
 str(diab.df)
 attach(diab.df)
@@ -376,7 +376,7 @@ run.feature.selection <- function(num.iters=20, feature.vars, class.var){
 #===============================================================
 library(caret) # model training and evaluation
 library(ROCR) # model evaluation
-source("C:/Users/my/Desktop/µÎ·ç¹Ì/1ÁÖÂ÷/ModelComparison/performance_plot_utils.R") # plotting metric results
+source("C:/Users/my/Desktop/ÂµÃŽÂ·Ã§Â¹ÃŒ/1ÃÃ–Ã‚Ã·/ModelComparison/performance_plot_utils.R") # plotting metric results
 
 ## separate feature and class variables
 # Exclude the dependent variable, include the predictors
