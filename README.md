@@ -120,7 +120,7 @@ This study explored the relationship between diabetes and various factors, inclu
 - **ANN was ineffective**, as it misclassified nearly all cases as non-diabetic.  
 
 ### 🔥 **Final Conclusion**  
-Diabetes onset is influenced by a **complex interplay of physical health factors (e.g., blood pressure, cholesterol) and socioeconomic conditions (e.g., income, self-assessed health perception)**.  
+Diabetes onset is influenced by a **complex interplay of physical health factors (e.g. self-assessed health score) and socioeconomic conditions (e.g., income)**.  
 This finding highlights the importance of **considering both medical and socio-economic determinants** when understanding and addressing diabetes risk.  
 
 
